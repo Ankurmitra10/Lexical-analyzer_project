@@ -1,0 +1,57 @@
+Enter your multi-line C code (end with a single '$' on a new line):
+#include <stdio.h>
+
+int main() {
+    int a = 2;
+    int b = 3;
+    int c = a + b;
+    
+    printf("Sum = %d\n", c);
+    return 0;
+}
+$
+
+Tokens:
+Token: #               Type: 5  Line: 1
+Token: include         Type: 2  Line: 1
+Token: <               Type: 5  Line: 1
+Token: stdio           Type: 2  Line: 1
+Token: .               Type: 5  Line: 1
+Token: h               Type: 2  Line: 1
+Token: >               Type: 5  Line: 1
+Token: int             Type: 1  Line: 3
+Token: main            Type: 2  Line: 3
+Token: (               Type: 5  Line: 3
+Token: )               Type: 5  Line: 3
+Token: {               Type: 5  Line: 3
+Token: int             Type: 1  Line: 4
+Token: a               Type: 2  Line: 4
+Token: =               Type: 5  Line: 4
+Token: 2               Type: 3  Line: 4
+Token: ;               Type: 5  Line: 4
+Token: int             Type: 1  Line: 5
+Token: b               Type: 2  Line: 5
+Token: =               Type: 5  Line: 5
+Token: 3               Type: 3  Line: 5
+Token: ;               Type: 5  Line: 5
+Token: int             Type: 1  Line: 6
+Token: c               Type: 2  Line: 6
+Token: =               Type: 5  Line: 6
+Token: a               Type: 2  Line: 6
+Token: +               Type: 5  Line: 6
+Token: b               Type: 2  Line: 6
+Token: ;               Type: 5  Line: 6
+Token: printf          Type: 2  Line: 8
+Token: (               Type: 5  Line: 8
+Token: "Sum = %d\n"    Type: 6  Line: 8
+Token: ,               Type: 5  Line: 8
+Token: c               Type: 2  Line: 8
+Token: )               Type: 5  Line: 8
+Token: ;               Type: 5  Line: 8
+Token: return          Type: 1  Line: 9
+Token: 0               Type: 3  Line: 9
+Token: ;               Type: 5  Line: 9
+Token: }               Type: 5  Line: 10
+
+
+=== Code Execution Successful ===
